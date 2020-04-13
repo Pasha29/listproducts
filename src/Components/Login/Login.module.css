@@ -1,5 +1,50 @@
-/* .divEmail {
-    width: 100px;
-    height: 200px;
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+
+}
+
+.inputBlock {
+    padding: 5px 5px;
+    
+}
+
+.inputBlock p { 
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    margin:10px 0;
+}
+
+.input{
+    height:25px;
+    width:200px;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inputBlock .buttonSubmit {
+    background-color: #5CB1BA;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.errorMessage{
+    border: 1px solid red;
     color: red;
-} */
+    padding: 5px;
+}

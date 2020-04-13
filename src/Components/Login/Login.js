@@ -14,14 +14,14 @@ const Login = (props) => {
     }
     else {
     return (
-    <div>
+    <div className={s.container}>
         <Formik
         initialValues={{ email: '', password: '' }}
         validate={values => {
             const errors = {};
             if (!values.email) {
-            errors.email = 'Required';
-            } 
+                errors.email = 'This field is required!';
+            }
             // else if (
             // !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
             // ) {
@@ -34,18 +34,24 @@ const Login = (props) => {
         }}
         >
         {({ isSubmitting }) => (
-            <Form>
-            <div>
-                <Field className={s.divEmail} name="email" />
-                <ErrorMessage name="email" component="div" />
-            </div>
-            <div>
-                <Field type="password" name="password" />
-                <ErrorMessage name="password" component="div" />
-            </div>
-            <button type="submit" disabled={isSubmitting}>
-                Submit
-            </button>
+            <Form className={s.authBlock}>
+                <div className={s.inputBlock}>
+                    <p>Логин</p>
+                    <Field placeholder={'Введите Email'} className={s.input} name="email" />
+                    <ErrorMessage className={s.errorMessage} name="email" component="div" />
+                </div>
+                
+                <div className={s.inputBlock}>
+                    <p>Пароль</p>
+                    <Field placeholder={'Введите пароль'} className={s.input} type="password" name="password" />
+                    <ErrorMessage className={s.errorMessage} name="password" component="div" />
+                </div>
+                
+                <div className={s.inputBlock}>
+                    <button className={s.buttonSubmit} type="submit" disabled={isSubmitting}>
+                        Войти
+                    </button>
+                </div>
             </Form>
         )}
         </Formik>
