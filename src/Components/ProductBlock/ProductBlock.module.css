@@ -12,6 +12,10 @@
     width: 80%;
 }
 
+.blockData:hover{
+    box-shadow: 0 0 10px #888888;
+}
+
 .blockData {
     border: 1px solid #d4c8c8;
     margin:10px;
