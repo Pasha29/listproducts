@@ -15,10 +15,19 @@
     color: #fff;
 }
 
-.enterButton{
+.enterText{
     margin-left: 100px;
-    margin-top:5px;
     background: none;
     border: none;
     color: #fff;
+}
+
+.logoutButton {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 100%;
+
 }

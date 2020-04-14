@@ -24,7 +24,9 @@ const AuthorizationAC = (isAuth) => ({ type: USER_AUTHORIZATION, isAuth })
 export let loginTC = (login, password) => {
     return (dispatch) => {
         localUserData.map(item => {
-            if (login === item.login && password === item.password) {
+            let pattern = new RegExp('[A-Za-z0-9\.]*@mail\.ch', "gim");
+            
+            if (login === item.login && password === item.password && !pattern.test(login)) {
                 dispatch(AuthorizationAC(true));
                 console.log('auth successful');
             }

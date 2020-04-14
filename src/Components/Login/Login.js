@@ -3,14 +3,13 @@ import { connect } from 'react-redux';
 import { loginTC } from '../../Redux/authReducer';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import s from './Login.module.css';
-import ProductBlockContainer from '../ProductBlock/ProductBlockContainer';
-import { NavLink } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 const Login = (props) => {
     console.log('login props');
     console.log(props);
     if(props.isAuth){
-        return <ProductBlockContainer />
+        return <Redirect to='/products'/>
     }
     else {
     return (
@@ -48,7 +47,7 @@ const Login = (props) => {
                 </div>
                 
                 <div className={s.inputBlock}>
-                    <button className={s.buttonSubmit} type="submit" disabled={isSubmitting}>
+                    <button className={s.buttonSubmit} type="submit">
                         Войти
                     </button>
                 </div>

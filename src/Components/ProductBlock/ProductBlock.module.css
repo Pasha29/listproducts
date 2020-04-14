@@ -1,5 +1,60 @@
-.ProductBlock {
-    width: 500px;
-    height: 500px;
-    background-color: aquamarine;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.blockData {
+    border: 1px solid #d4c8c8;
+    margin:10px;
+    padding:10px;
+}
+
+.headText{
+    color: #5CB1BA;
+    font-size: 35px;
+}
+
+.imgBlock {
+    display:flex;
+    justify-content: center;
+}
+
+.prodImg {
+    width: 300px;
+}
+
+.prodData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.propDescription{
+    flex-direction: column;
+}
+
+.manufacturer{
+    color: #888;
+}
+
+.sku{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.prodPrice {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
 }

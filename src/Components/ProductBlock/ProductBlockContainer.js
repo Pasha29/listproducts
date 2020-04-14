@@ -2,10 +2,12 @@ import React from 'react';
 import ProductBlock from './ProductBlock';
 import { connect } from 'react-redux';
 import { logoutTC } from '../../Redux/authReducer';
+import { localProductData } from '../../Data/localData';
+import { authRedirectComponent } from '../../Redux/authRedirect';
 
 class ProductBlockContainer extends React.Component {
     render(){
-        return <ProductBlock logoutTC={this.props.logoutTC}/>
+        return <ProductBlock localProductData={localProductData} logoutTC={this.props.logoutTC}/>
     }
 }
 
@@ -15,4 +17,6 @@ let mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, { logoutTC })(ProductBlockContainer);
+let withRedirect = authRedirectComponent(ProductBlockContainer);
+
+export default connect(mapStateToProps, { logoutTC })(withRedirect);
