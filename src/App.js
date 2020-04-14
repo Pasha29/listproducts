@@ -15,7 +15,7 @@ let App = (props) => {
         <BrowserRouter>
         <Header />
         <Route path='/' render={() => <Login />} />
-        <Route path='/products' render={() => <ProductBlockContainer />} />
+        <Route path='/products/:prodId?' render={() => <ProductBlockContainer />} />
         <Footer />
         </BrowserRouter>
       </div>
