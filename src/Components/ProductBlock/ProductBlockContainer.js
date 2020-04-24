@@ -2,7 +2,7 @@ import React from 'react';
 import ProductBlock from './ProductBlock';
 import { connect } from 'react-redux';
 import { logoutTC } from '../../Redux/authReducer';
-import { localProductData } from '../../Data/localData';
+import localProductData from '../../Data/localData.json';
 import { authRedirectComponent } from '../../Redux/authRedirect';
 import { withRouter } from 'react-router-dom';
 import SpecificProduct from '../SpecificProduct/SpecificProduct';

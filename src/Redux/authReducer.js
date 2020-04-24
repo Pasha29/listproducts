@@ -1,4 +1,4 @@
-import { localUserData } from '../Data/localData';
+import localUserData from '../Data/localDataForAuth.json';
 
 const USER_AUTHORIZATION = 'USER_AUTHORIZATION';
 

@@ -1,4 +1,4 @@
-export let localProductData = [
+[
      {
         "id": 0,
         "SKU": "4G180",
@@ -10,7 +10,7 @@ export let localProductData = [
         "DealerPrice": "750",
         "RetailPrice": "952.17",
         "Manufacturer": "Tenda",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/4G180.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/4G180.jpg"
     },
     {
         "id": 1,
@@ -23,7 +23,7 @@ export let localProductData = [
         "DealerPrice": "995",
         "RetailPrice": "1252.17",
         "Manufacturer": "Tenda",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/4G680.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/4G680.jpg"
     },
     {
         "id": 2,
@@ -36,7 +36,7 @@ export let localProductData = [
         "DealerPrice": "1025",
         "RetailPrice": "1282.61",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-AC.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-AC.jpg"
     },
     {
         "id": 3,
@@ -49,7 +49,7 @@ export let localProductData = [
         "DealerPrice": "395",
         "RetailPrice": "478.26",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-ISP.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/ACB-ISP.jpg"
     },
     {
         "id": 4,
@@ -62,7 +62,7 @@ export let localProductData = [
         "DealerPrice": "8595",
         "RetailPrice": "10691.3",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FX.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FX.jpg"
     },
     {
         "id": 5,
@@ -75,7 +75,7 @@ export let localProductData = [
         "DealerPrice": "2650",
         "RetailPrice": "3300",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FXDUPL.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11FXDUPL.jpg"
     },
     {
         "id": 6,
@@ -88,7 +88,7 @@ export let localProductData = [
         "DealerPrice": "5325",
         "RetailPrice": "6652.17",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11G35.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-11G35.jpg"
     },
     {
         "id": 7,
@@ -101,7 +101,7 @@ export let localProductData = [
         "DealerPrice": "5495",
         "RetailPrice": "6865.22",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-5XHD.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AF-5XHD.jpg"
     },
     {
         "id": 8,
@@ -114,7 +114,7 @@ export let localProductData = [
         "DealerPrice": "2495",
         "RetailPrice": "3126.09",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSK.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSK.jpg"
     },
     {
         "id": 9,
@@ -127,7 +127,7 @@ export let localProductData = [
         "DealerPrice": "1375",
         "RetailPrice": "1717.39",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSR.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AFI-INSR.jpg"
     },
     {
         "id": 10,
@@ -140,7 +140,7 @@ export let localProductData = [
         "DealerPrice": "1450",
         "RetailPrice": "1821.74",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D523X.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D523X.jpg"
     },
     {
         "id": 11,
@@ -153,7 +153,7 @@ export let localProductData = [
         "DealerPrice": "1850",
         "RetailPrice": "2304.35",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg",
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530.jpg"
     },
     {
         "id": 12,
@@ -166,17 +166,6 @@ export let localProductData = [
         "DealerPrice": "1395",
         "RetailPrice": "1734.78",
         "Manufacturer": "Ubiquiti",
-        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530LW.jpg",
-    },
-]
-
-export let localUserData = [
-    {
-        "login" : "admin",
-        "password" : "admin"
-    },
-    {
-        "login" : "user@mail.ch",
-        "password" : "123"
+        "ImageURL": "https://scoop.co.za/download/marketing/images/AIR-D530LW.jpg"
     }
 ]
